@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8DBB81067491B9579FE2CB4B /* Pods_HouseKeeping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42C296170D4C10770CA9BB7 /* Pods_HouseKeeping.framework */; };
 		FA837A4429D3376600897176 /* HouseKeepingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA837A4329D3376600897176 /* HouseKeepingApp.swift */; };
 		FA837A4629D3376600897176 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA837A4529D3376600897176 /* ContentView.swift */; };
 		FA837A4829D3376800897176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA837A4729D3376800897176 /* Assets.xcassets */; };
 		FA837A4B29D3376800897176 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA837A4A29D3376800897176 /* Preview Assets.xcassets */; };
 		FA837A4D29D3376800897176 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA837A4C29D3376800897176 /* Persistence.swift */; };
 		FA837A5029D3376800897176 /* HouseKeeping.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA837A4E29D3376800897176 /* HouseKeeping.xcdatamodeld */; };
+		FAAB241D29D46EEA007AB26B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAAB241C29D46EEA007AB26B /* GoogleService-Info.plist */; };
+		FAAB242329D47B39007AB26B /* greetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB242229D47B39007AB26B /* greetingView.swift */; };
+		FAADBF8129D4886700D1F1AA /* BringerCreatePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADBF8029D4886700D1F1AA /* BringerCreatePage.swift */; };
+		FAADBF8329D48A0000D1F1AA /* customerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADBF8229D48A0000D1F1AA /* customerMainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AFD5BCEF0D2B277E825D0FCD /* Pods-HouseKeeping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseKeeping.debug.xcconfig"; path = "Target Support Files/Pods-HouseKeeping/Pods-HouseKeeping.debug.xcconfig"; sourceTree = "<group>"; };
+		B80028B1F3C757039B50D8AF /* Pods-HouseKeeping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseKeeping.release.xcconfig"; path = "Target Support Files/Pods-HouseKeeping/Pods-HouseKeeping.release.xcconfig"; sourceTree = "<group>"; };
+		F42C296170D4C10770CA9BB7 /* Pods_HouseKeeping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseKeeping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA837A4029D3376600897176 /* HouseKeeping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseKeeping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA837A4329D3376600897176 /* HouseKeepingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseKeepingApp.swift; sourceTree = "<group>"; };
 		FA837A4529D3376600897176 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +31,10 @@
 		FA837A4A29D3376800897176 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA837A4C29D3376800897176 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FA837A4F29D3376800897176 /* HouseKeeping.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HouseKeeping.xcdatamodel; sourceTree = "<group>"; };
+		FAAB241C29D46EEA007AB26B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FAAB242229D47B39007AB26B /* greetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greetingView.swift; sourceTree = "<group>"; };
+		FAADBF8029D4886700D1F1AA /* BringerCreatePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BringerCreatePage.swift; sourceTree = "<group>"; };
+		FAADBF8229D48A0000D1F1AA /* customerMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customerMainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,17 +42,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DBB81067491B9579FE2CB4B /* Pods_HouseKeeping.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EB8F0D71C7C603851408F1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFD5BCEF0D2B277E825D0FCD /* Pods-HouseKeeping.debug.xcconfig */,
+				B80028B1F3C757039B50D8AF /* Pods-HouseKeeping.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4BBF27AC8D97F31D712A76F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F42C296170D4C10770CA9BB7 /* Pods_HouseKeeping.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FA837A3729D3376600897176 = {
 			isa = PBXGroup;
 			children = (
 				FA837A4229D3376600897176 /* HouseKeeping */,
 				FA837A4129D3376600897176 /* Products */,
+				1EB8F0D71C7C603851408F1B /* Pods */,
+				4BBF27AC8D97F31D712A76F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +87,8 @@
 		FA837A4229D3376600897176 /* HouseKeeping */ = {
 			isa = PBXGroup;
 			children = (
-				FA837A4329D3376600897176 /* HouseKeepingApp.swift */,
-				FA837A4529D3376600897176 /* ContentView.swift */,
-				FA837A4729D3376800897176 /* Assets.xcassets */,
-				FA837A4C29D3376800897176 /* Persistence.swift */,
-				FA837A4E29D3376800897176 /* HouseKeeping.xcdatamodeld */,
+				FAAB241F29D47102007AB26B /* EverythingElse */,
+				FAAB241E29D470E9007AB26B /* Views */,
 				FA837A4929D3376800897176 /* Preview Content */,
 			);
 			path = HouseKeeping;
@@ -73,6 +102,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FAAB241E29D470E9007AB26B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA837A4529D3376600897176 /* ContentView.swift */,
+				FAAB242229D47B39007AB26B /* greetingView.swift */,
+				FAADBF8029D4886700D1F1AA /* BringerCreatePage.swift */,
+				FAADBF8229D48A0000D1F1AA /* customerMainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAAB241F29D47102007AB26B /* EverythingElse */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB241C29D46EEA007AB26B /* GoogleService-Info.plist */,
+				FA837A4E29D3376800897176 /* HouseKeeping.xcdatamodeld */,
+				FA837A4C29D3376800897176 /* Persistence.swift */,
+				FA837A4729D3376800897176 /* Assets.xcassets */,
+				FA837A4329D3376600897176 /* HouseKeepingApp.swift */,
+			);
+			path = EverythingElse;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA837A5329D3376800897176 /* Build configuration list for PBXNativeTarget "HouseKeeping" */;
 			buildPhases = (
+				E7941A175B4FDDF50C40A232 /* [CP] Check Pods Manifest.lock */,
 				FA837A3C29D3376600897176 /* Sources */,
 				FA837A3D29D3376600897176 /* Frameworks */,
 				FA837A3E29D3376600897176 /* Resources */,
+				F00616FF5482FA344BF875F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,10 +187,53 @@
 			files = (
 				FA837A4B29D3376800897176 /* Preview Assets.xcassets in Resources */,
 				FA837A4829D3376800897176 /* Assets.xcassets in Resources */,
+				FAAB241D29D46EEA007AB26B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E7941A175B4FDDF50C40A232 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HouseKeeping-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F00616FF5482FA344BF875F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HouseKeeping/Pods-HouseKeeping-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HouseKeeping/Pods-HouseKeeping-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HouseKeeping/Pods-HouseKeeping-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA837A3C29D3376600897176 /* Sources */ = {
@@ -146,6 +243,9 @@
 				FA837A5029D3376800897176 /* HouseKeeping.xcdatamodeld in Sources */,
 				FA837A4D29D3376800897176 /* Persistence.swift in Sources */,
 				FA837A4629D3376600897176 /* ContentView.swift in Sources */,
+				FAAB242329D47B39007AB26B /* greetingView.swift in Sources */,
+				FAADBF8329D48A0000D1F1AA /* customerMainView.swift in Sources */,
+				FAADBF8129D4886700D1F1AA /* BringerCreatePage.swift in Sources */,
 				FA837A4429D3376600897176 /* HouseKeepingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +369,7 @@
 		};
 		FA837A5429D3376800897176 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD5BCEF0D2B277E825D0FCD /* Pods-HouseKeeping.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,6 +398,7 @@
 		};
 		FA837A5529D3376800897176 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B80028B1F3C757039B50D8AF /* Pods-HouseKeeping.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
